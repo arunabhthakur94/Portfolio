@@ -13,23 +13,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
+    <nav class="navbar-test">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#home">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home" class="menu-btn-test">Home</a></li>
+                <li><a href="#about" class="menu-btn-test">About</a></li>
+                <li><a href="#services" class="menu-btn-test">Services</a></li>
+                <li><a href="#skills" class="menu-btn-test">Skills</a></li>
+                <li><a href="#teams" class="menu-btn-test">Teams</a></li>
+                <li><a href="#contact" class="menu-btn-test">Contact</a></li>
             </ul>
-            <div class="menu-btn">
+            <div class="menu-btn-test">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
@@ -42,7 +46,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Arunabh Singh</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -53,13 +57,247 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
+                    <img src="/assets/banner.jpeg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Arunabh Singh and I'm a <span class="typing-2"></span></div>
                     <!-- <p>I am a Full Stack Developer with 2+ years of experiences in Web Development using tech like HTML, CSS, JavaScript, BootStrap, EcmaScript 6, React, Redux, React-Redux, Python, Flask and MySQL. Currently working as a SOFTWARE ENGINEER in AUSTIN MONKS PRIVATE LIMITED. Have also explored many liberies like rich text editor lib known as DraftJS and Automation testing using Cypress. Able to handle complete deployment cycles for a feature that can perform CRUD operations very well.</p> -->
-                    <p>I am an Engineer graduated in year 2016 with Honours. Currently working as a Software Engineer in Austin Monks Private Limited with an experience of 2+ years. I am a technically connected guy and always try to solve problems people are facing using my codes. Love to take part in outdoor activities like some sports or any adventure event. I am an Automobile enthusiest and a national level football player. </p>
-                    <a href="#">Download CV</a>
+                    <p>I am an Engineer graduated in year 2016 with Honours. Currently working as a Software Engineer in Austin Monks Private Limited with an experience of 2+ years. I am a technically connected guy and always try to solve problems which people are facing using my codes. Love to take part in outdoor activities like some sports or any adventure event. I am an Automobile enthusiest and a national level football player. </p>
+                    <a href="assets/Arunabh's Resume.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="skills proficiencies" id="proficiencies">
+        <div class="text-center">
+            <h2 class="title mb-5"><strong>Proficiencies</strong></h2>
+            <div class="row text-muted">
+                <div class="col-6 col-lg-3 mb-3"><img class="mb-2" src="./assets/react-brands-1.svg" style="width: 93px;" height="100">
+                <p class="d-block d-lg-none"><strong>React Apps</strong></p>
+                <p class="d-none d-lg-block"><strong>React Apps</strong><br>When it comes to react apps<br>I have the strength of Atlas</p></div>
+                <div class="col-6 col-lg-3 mb-3"><img class="mb-2" src="./assets/Vector.svg" style="width: 93px;" height="100">
+                <p class="d-block d-lg-none"><strong>Backend</strong></p>
+                <p class="d-none d-lg-block"><strong>Backend</strong><br>I am the one who runs<br>the show</p></div>
+                <div class="col-6 col-lg-3 mb-3"><img class="mb-2" src="./assets/Vector (2).svg" style="width: 93px;" height="100">
+                <p class="d-block d-lg-none"><strong>Frontend</strong></p>
+                <p class="d-none d-lg-block"><strong>Frontend</strong><br>Now just that I can<br>even host the show</p></div>
+                <div class="col-6 col-lg-3 mb-4"><img class="mb-2" src="./assets/Vector (1).svg" style="width: 93px;" height="100">
+                <p class="d-block d-lg-none"><strong>Data Structures</strong></p>
+                <p class="d-none d-lg-block"><strong>Data Structures</strong><br>Putting the right blocks in the<br>right place is just my thing</p></div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="skills projects" id="projects">
+        <h2 class="title mb-5"><strong>Projects</strong></h2>
+        <div class="container ml-1 mt-5 mb-5 border">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card">
+                        <img src="./assets/projects/Front-End-Project.png" class="card-img-top" alt="Front-End-Project">
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Fitness Tracker</strong></h5>
+                            <p class="card-text">A Week Long Front End Project.</p>
+                        </div>
+                        <div class="row mx-auto mb-3" style="width: 260px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="24">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="24">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="24">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" class="mr-3" alt="Bootstrap" height="24">
+                            <img src="https://cdn.svgporn.com/logos/es6.svg" class="mr-3" alt="ES6" height="24">
+                            <img src="https://cdn.svgporn.com/logos/react.svg" alt="React" height="24">
+                            <img src="https://cdn.svgporn.com/logos/react-router.svg" alt="React-Route" height="24">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/Fitness-Tracker" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://fitnesstracker-fitme.netlify.com/" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-muted text-left mt-5 d-none d-lg-block">
+                    <h4><strong>Exploring the App’s Features</strong></h4>
+                    Fitness tracker has a login and register option on main page which takes you to the login and register page. 
+                    The Register page is for the first time user to register his/her data in gym and start working out post it. 
+                    Once the user register he/she needs to sign in as a user to continue to the routine/activity page.
+                    <br>
+                    After entering the routine page the user makes an entry in the routine page and feeds the information for 
+                    the day which will mark as a record of what activity the user has done at which date and has left the gym at which time. 
+                    There is a check progress button which will show the graphical growth of the user according to the wait. Now from the 
+                    login page if the trainer signs in the trainer is redirected to the info page which shows all the required data for the 
+                    trainer to track the progress of the following user and then accordingly change the diet and excercise for the particular user. 
+                    Routine page and info page contain the logout which logout the session and logo which will take you to the home page.
+                    <br>
+                    <a href="https://medium.com/@harshitga/fitness-tracker-my-first-end-to-end-front-end-project-92c1fc38c86a">View Blog</a>
+                    <!-- <strong class="font-italic" style="color: #5b73ea;"><a href="https://medium.com/@harshitga/fitness-tracker-my-first-end-to-end-front-end-project-92c1fc38c86a">View Blog</a></strong> -->
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container mt-3 ml-3">
+            <div class="row h-100 justify-content-center align-items-center">
+
+                <!-- One -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week8.png" class="card-img-top" alt="Vehicle Renting System">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Vehicle Renting System</strong></h5>
+                        <p class="card-text">Website Design using<br>React Framework, Dynamic Routing, LocalStorage</p>
+                        <div class="row mx-auto mb-3 d-lg-block d-none" style="width: 330px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="30">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" class="mr-3" alt="Bootstrap" height="30">
+                            <img src="https://cdn.svgporn.com/logos/es6.svg" class="mr-3" alt="ES6" height="30">
+                            <img src="https://cdn.svgporn.com/logos/react.svg" alt="React" height="30">
+                            <img src="https://cdn.svgporn.com/logos/react-router.svg" alt="React-Route" height="30">
+                        </div>
+                        <div class="row mx-auto mb-3 d-block d-lg-none" style="width: 255px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="20">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="20">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="20">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" class="mr-3" alt="Bootstrap" height="20">
+                            <img src="https://cdn.svgporn.com/logos/es6.svg" class="mr-3" alt="ES6" height="20">
+                            <img src="https://cdn.svgporn.com/logos/react.svg" alt="React" height="20">
+                            <img src="https://cdn.svgporn.com/logos/react-router.svg" alt="React-Route" height="20">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-8/tree/master/vehicle-renting-system" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Two -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week7.png" class="card-img-top" alt="Apple Website">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Apple Website</strong></h5>
+                        <p class="card-text">Single Page Website.<br>Started with React Framework</p>
+                        <div class="row mx-auto mb-3" style="width: 250px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="30">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" class="mr-3" alt="Bootstrap" height="30">
+                            <img src="https://cdn.svgporn.com/logos/es6.svg" class="mr-3" alt="ES6" height="30">
+                            <img src="https://cdn.svgporn.com/logos/react.svg" alt="React" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-7/tree/master/project/microsoft" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Three -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week6.png" class="card-img-top" alt="HR Management System">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>HR Management System</strong></h5>
+                        <p class="card-text">Responsive Layout.<br>Started with Bootstrap<br>Advance JavaScript & CSS, ES6</p>
+                        <div class="row mx-auto mb-3" style="width: 200px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="30">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" class="mr-3" alt="Bootstrap" height="30">
+                            <img src="https://cdn.svgporn.com/logos/es6.svg" alt="ES6" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-6/tree/master/project" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/masai-week-6/project/" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Four -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week5.png" class="card-img-top" alt="Dog Breed Finder">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Dog Breed Finder</strong></h5>
+                        <p class="card-text">Find any Dog Breed.<br>HTML <i class="fa fa-html5" aria-hidden="true"></i>, CSS <i class="fa fa-css3" aria-hidden="true"></i>, Bootstrap , JQuery, JavaScript, API Handling</p>
+                        <div class="row mx-auto mb-3" style="width: 155px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="CSS3" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="30">
+                            <img src="https://cdn.svgporn.com/logos/bootstrap.svg" alt="Bootstrap" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-5" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/masai-week-5/" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-100 justify-content-center align-items-center">
+
+                <!-- Five -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Typewriter.png" class="card-img-top" alt="Typewriter">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Virtual Typewriter</strong></h5>
+                        <p class="card-text">Fully Functional Onscreen Typewriter.<br>HTML <i class="fa fa-html5" aria-hidden="true"></i>, CSS <i class="fa fa-css3" aria-hidden="true"></i><br> JavaScript.</p>
+                        <div class="row mx-auto mb-3" style="width: 125px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" class="mr-3" alt="JS" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/typewriter" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/typewriter/arunabh_singh.html" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Six -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week4.png" class="card-img-top" alt="Restraunt Bill Generator">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Restaurant Bill Generator</strong></h5>
+                        <p class="card-text">Project with JavaScript.<br>HTML, Advance CSS <i class="fa fa-css3" aria-hidden="true"></i><br> JavaScript.</p>
+                        <div class="row mx-auto mb-3" style="width: 105px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" class="mr-3" alt="CSS3" height="30">
+                            <img src="https://cdn.svgporn.com/logos/javascript.svg" alt="JS" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-4" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/masai-week-4/index.html" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seven -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week2.png" class="card-img-top" alt="Tea Story">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>The Story Of Chai</strong></h5>
+                        <p class="card-text">Next responsive project.<br>Media queries, <i class="fa fa-css3" aria-hidden="true"></i> CSS combinators , Box Model, Floats, Flex and Grids etc.</p>
+                        <div class="row mx-auto mb-3" style="width: 60px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS3" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-2/tree/master/project" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/masai-week-2/project/index.html" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eight -->
+                <div class="card col-12 col-md-5 mt-3 mr-4" style="width: 18rem;">
+                    <img src="./assets/projects/Week1.png" class="card-img-top" alt="Yoda Profile">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Yoda-The Jedi Master</strong></h5>
+                        <p class="card-text">Very first project.<br>Character from Star Wars.<br>One page Profile using HTML5 <i class="fa fa-html5" aria-hidden="true"></i>, Inline CSS <i class="fa fa-css3" aria-hidden="true"></i>.</p>
+                        <div class="row mx-auto mb-3" style="width: 60px;">
+                            <img src="https://cdn.svgporn.com/logos/html-5.svg" class="mr-3" alt="HTML5" height="30">
+                            <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS3" height="30">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://github.com/arunabhthakur94/masai-week-1/tree/master/masai/week_1" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Code</a>
+                            <a href="https://arunabhthakur94.github.io/masai-week-1/masai/week_1/index.html" target="_blank" class="btn text-white" style="background-color: #5b73ea;">Demo</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,23 +310,23 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Web Application Design and Development</div>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">Frontend Engineering and Development</div>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p> -->
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <div class="text">Backend Engineering and Development</div>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p> -->
                     </div>
                 </div>
                </div>
@@ -103,7 +341,8 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>I have handled complete cycles of many feature and tasks independently from the mocks discussion, development, testing till the deployment cycles. Also was responsible for maintenance of product too. Worked on many independent projects and ideas. Cloned many existing websites using JavaScript and Python to make the websites perform well in all CRUD operations.
+                        Created a rich text editor in my current product using a library called DraftJS.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -130,7 +369,35 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>PHP</span>
+                            <span>BootStrap</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>ES6</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Redux</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
                             <span>50%</span>
                         </div>
                         <div class="line php"></div>
@@ -138,9 +405,9 @@
                     <div class="bars">
                         <div class="info">
                             <span>MySQL</span>
-                            <span>70%</span>
+                            <span>50%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line php"></div>
                     </div>
                 </div>
             </div>
@@ -148,48 +415,55 @@
     </section>
 
     <!-- teams section start -->
-    <section class="teams" id="teams">
+    <!-- <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">My teams</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
                         <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="text">Chandrashekar</div>
+                        <p>Director at Engineering</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="text">Reetesh Ranjan</div>
+                        <p>Senior Developer</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="text">Ajai J</div>
+                        <p>Senior Developer</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="text">Madhu Shukla</div>
+                        <p>Software Engineer</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="text">Ankit Verma</div>
+                        <p>Software Engineer</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png" alt="">
+                        <div class="text">Aishwarya</div>
+                        <p>Software Engineer</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -198,13 +472,20 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
                                 <div class="sub-title">Arunabh Singh</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Call at</div>
+                                <div class="sub-title">8299535615</div>
                             </div>
                         </div>
                         <div class="row">
@@ -251,7 +532,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <!-- <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span> -->
     </footer>
 
     <script src="scripts.js"></script>
